@@ -1,0 +1,48 @@
+1. pip install seaborn
+
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   import pandas as pd
+
+2. Načtěte data pomocí Pandas (ujistěte se, že se datum načte ve správném formátu)
+   Prohlédněte si data
+   Zjistěte, zda se některé hodnoty nenačetly špatně
+
+3. Vytvořte spojnicový graf pro teplotu - zvolte si, kterou teplotu vykreslíte (temp_min nebo temp_max)
+   Zkuste si graf vykreslit
+   Nastavte styl vykreslování grafů (theme) pomocí seabornu
+   Přidejte do grafu druhou teplotu a vhodně nastavte barvy
+   Nastavte osu x na datum a naformátujte text tak, aby se nepřekrýval (matplotlib funkce)
+
+4. Vykreslete histogramy všech sloupců do jednoho grafu
+
+5. Vykreslete graf počtů pro kategorie sloupce weather
+
+6. Vykreslete 2 histogramy, pro každou teplotu jeden, do jednoho okna a vhodně zvolte velikost okna
+   Přidejte do grafů vyhlazenou křivku (Kernel density estimation - KDE)
+   Nastavte pro každý graf jinou barvou
+   Nastavte pro oba grafy osu x na stejný rozsah
+
+7. Vytvořte okno 4 grafů
+   Všechny grafy budou mít na ose x datum
+
+   1. graf bude spojnicový graf hodnot 'temp_min'
+   2. graf bude spojnicový graf hodnot 'temp_max'
+   Pro grafy 1 a 2 nastavte stejný rozsah osy y a vhodně zvolte barvy grafů
+
+   3. graf bude bodový graf srážek
+   4. graf bude bodový graf větru
+   Pro grafy 3 a 4 nastavte barvy bodů podle kategorie sloupce 'weather'
+
+8. Vykreslete lineární regresi mezi temp_min a temp_max pro každou kategorii ze sloupce 'weather' pomocí pouze jednoho řádku
+   Změňte barvu pro každý graf
+
+9. Přidejte sloupec dat, který bude obsahovat číslo měsíce
+   Vykreslete sloupcový graf teplot pro jednotlivé měsíce (společný graf pro temp_max a temp_min)
+   Vykreslete temp_max a temp_min jinou barvou (použijte na to paletu barev)
+
+10. Vykreslete korelační matici pro všechny hodnoty
+    Zobrazte hodnoty jednotlivých políček
+
+11. Vykreslete boxploty minimální teploty pro všechny kategorie sloupce 'weather'
+    Zvolte vhodně vzhled vykreslování
