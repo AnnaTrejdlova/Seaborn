@@ -46,3 +46,5 @@
 
 11. Vykreslete boxploty minimální teploty pro všechny kategorie sloupce 'weather'
     Zvolte vhodně vzhled vykreslování
+    
+12. Vykreslete párový graf a nastavte barvy podle kategorie sloupce 'weather'
